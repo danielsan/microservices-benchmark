@@ -14,7 +14,7 @@
   "dependencies": {
     "benchmarkify": "2.1.0",
     "bluebird": "3.5.0",
-    "cote": "0.14.1",
+    "cote": "0.16.2",
     "lodash": "4.17.4",
     "moleculer": "0.7.7",
     "nanoservices": "0.0.11",
