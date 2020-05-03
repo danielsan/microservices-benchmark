@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-03T00:14:46.360Z'
+    - benchmarkify > lodash:
+        patched: '2020-05-03T00:14:46.360Z'
+    - seneca > lodash:
+        patched: '2020-05-03T00:14:46.360Z'
+    - seneca > patrun > lodash:
+        patched: '2020-05-03T00:14:46.360Z'
+    - seneca > seneca-log-filter > lodash:
+        patched: '2020-05-03T00:14:46.360Z'
+    - seneca > seneca-transport > lodash:
+        patched: '2020-05-03T00:14:46.360Z'
+    - seneca > use-plugin > lodash:
+        patched: '2020-05-03T00:14:46.360Z'
