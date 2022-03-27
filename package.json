@@ -20,7 +20,7 @@
     "nanoservices": "0.0.11",
     "nats": "0.7.20",
     "nats-hemera": "1.3.2",
-    "seneca": "3.3.0",
+    "seneca": "3.5.0",
     "seneca-nats-transport": "2.0.3"
   },
   "devDependencies": {
